@@ -1,45 +1,47 @@
 # AMD Ryzen Hackintosh
 
-**macOS version**: 10.15.6  
-**OpenCore version**: 0.6.1 
+forked from https://github.com/kdbaustert/ryzen-hackintosh
 
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/about-mac.png)
+**macOS version**: 10.15.6  
+**OpenCore version**: 0.6.3 
+
 
 ## Specification
 | Component        | Model                                  |
 | ---------------- | -------------------------------------- |
-| CPU              | AMD Ryzen 7 2700                       |
-| MotherBoard      | ASUS ROG Strix X470-F                  |
-| OS Disk (NVMe)   | 2x WD 500GB NVMe M.2 SSD               |
-| RAM              | 4x 16gb Corsair Vengeance Pro 64GB Ram |
-| GPU              | Sapphire Radeon Nitro+ RX 580          |
-| Bluetooth        | BCM94360CD Native Airport WiFi BT 4.0  |
-| Liquid Cooler    | Corsair h100i Pro                      |
-| WiFi & Bluetooth | Fenvi FV-T919                          |
+| CPU              | AMD Ryzen 3 2200g                      |
+| MotherBoard      | GIGA x470 aorus gaming                 | 
+| OS Disk (NVMe)   | Samsung 850 evo 250 GB                 |
+| RAM              | 1 X 16gb Corsair Vengeance LPX 3000    |
+| GPU              | Sapphire Radeon R9 280 3GB             |
+| WiFi & Bluetooth | Fenvi FV-T919   ( shipping )           |
+| Audio            | Alc1220                                |
+| Audio            | Sound blaster x g6  ( shipping )       |
 
 ## Patches, Drivers & Kexts
 
-- [Patchs] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+- [Patchs] AMD_Vanilla] (https://github.com/AMD-OSX/AMD_Vanilla)
 - [Driver] OpenRuntime
 - [Driver] OpenCanopy
 - [Driver] HfsPlus
-- [Kext] Lilu]
-- [Kext] WhateverGreen]
-- [Kext] AppleALC]
+- [Kext] Lilu
+- [Kext] WhateverGreen
+- [Kext] AppleALC
 - [Kext] SmallTreeIntel82576
-- [Kext] RadeonBoost
 - [Kext] AMDRyzenCPUPowerManagement
 - [Kext] AppleMCEReporterDisabler
 
-
 ## Working
 
-- [x] Messaging
 - [x] iCloud
 - [x] Handoff
-- [x] AirDrop
-- [x] Bluetooth
-- [x] Wifi
+- [] AirDrop
+- [] Bluetooth
+- [] WiFi
 - [x] Ethernet
+- [x] Sleep with hibernate mode 0
 
-![Screenshot](https://github.com/kdbaustert/ryzen-hackintosh/blob/master/images/IMG_5963.png)
+## Issues
+- iMessager could not login
+- Apple ID could not finish login
+- Apple music has minor dropping / popping issue
