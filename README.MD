@@ -41,7 +41,7 @@ forked from https://github.com/kdbaustert/ryzen-hackintosh
 - [x] Ethernet
 - [x] Sleep with hibernate mode 0
 
-## Issues
+## Known Issues
 - iMessager could not login
 - Apple ID could not finish login
-- Apple music has minor dropping / popping issue
+- With ALC1220, Media players like Quick time and Apple music have noticeable dropping / popping issues; things like Browsing YouTube are fine. 
