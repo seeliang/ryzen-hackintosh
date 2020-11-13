@@ -11,7 +11,7 @@ forked from https://github.com/kdbaustert/ryzen-hackintosh
 | ---------------- | -------------------------------------- |
 | CPU              | AMD Ryzen 3 2200g                      |
 | MotherBoard      | GIGA x470 aorus gaming                 | 
-| OS Disk (NVMe)   | Samsung 850 evo 250 GB                 |
+| OS Disk          | Samsung 850 evo 250 GB                 |
 | RAM              | 1 X 16gb Corsair Vengeance LPX 3000    |
 | GPU              | Sapphire Radeon R9 280 3GB             |
 | WiFi & Bluetooth | Fenvi FV-T919   ( shipping )           |
